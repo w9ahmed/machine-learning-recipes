@@ -15,7 +15,7 @@ X_train, X_test, Y_train, Y_test = train_test_split( X, Y, test_size= .5 )
 
 
 # Using Descision Tree
-from sklearn import tree
+from sklearn import tree 
 classifier = tree.DecisionTreeClassifier().fit(X_train, Y_train)
 
 predictions = classifier.predict(X_test)
